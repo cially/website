@@ -2,12 +2,10 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Github, BarChart3, Users, Activity } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
 
 const CiallyLogo = () => (
   <div className="relative w-10 h-10">
-    <Image
+    <img
       src="./logo.svg"
       alt="Cially Logo"
       width={40}
@@ -28,10 +26,10 @@ export default function PlaceholderSite() {
             <span className="text-xl font-bold">Cially</span>
           </div>
           <Button variant="ghost" size="sm" asChild>
-            <Link href="https://github.com" className="flex items-center gap-2 text-slate-300 hover:text-white">
+            <a href="https://github.com">
               <Github className="h-4 w-4" />
               GitHub
-            </Link>
+            </a>
           </Button>
         </div>
       </header>
@@ -76,15 +74,13 @@ export default function PlaceholderSite() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-[#3dd8e3] hover:bg-[#2bc0cb] text-[#050d1f] font-medium" asChild>
-              <Link href="https://github.com">
+              <a href="https://github.com">
                 <Github className="h-4 w-4 mr-2" />
                 View on GitHub
-              </Link>
+              </a>
             </Button>
 
             <Button
-              variant="outline"
-              className="border-[#1a2234] text-slate-300 hover:bg-[#1a2234] hover:text-white"
               disabled
             >
               Documentation (Soon)
@@ -96,7 +92,7 @@ export default function PlaceholderSite() {
       {/* Footer */}
       <footer className="border-t border-[#1a2234] py-6">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-slate-400 text-sm">Made by Skell for the community • Open source Discord analytics</p>
+          <p className="text-slate-400 text-sm">Made by the <a href="https://github.com/cially" className="text-slate-300 hover:text-white hover:underline">Cially Team</a> for the community • Open source Discord analytics</p>
         </div>
       </footer>
     </div>
