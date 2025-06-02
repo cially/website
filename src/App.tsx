@@ -26,7 +26,7 @@ export default function PlaceholderSite() {
             <span className="text-xl font-bold">Cially</span>
           </div>
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://github.com">
+            <a href="https://github.com/cially/cially">
               <Github className="h-4 w-4" />
               GitHub
             </a>
@@ -74,7 +74,7 @@ export default function PlaceholderSite() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-[#3dd8e3] hover:bg-[#2bc0cb] text-[#050d1f] font-medium" asChild>
-              <a href="https://github.com">
+              <a href="https://github.com/cially/cially">
                 <Github className="h-4 w-4 mr-2" />
                 View on GitHub
               </a>
