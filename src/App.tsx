@@ -2,6 +2,20 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Github, BarChart3, Users, Activity } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
+
+const CiallyLogo = () => (
+  <div className="relative w-10 h-10">
+    <Image
+      src="./logo.svg"
+      alt="Cially Logo"
+      width={40}
+      height={40}
+      className="w-10 h-10"
+    />
+  </div>
+)
 
 export default function PlaceholderSite() {
   return (
@@ -10,16 +24,14 @@ export default function PlaceholderSite() {
       <header className="border-b border-[#1a2234] py-4">
         <div className="max-w-4xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-teal-500 rounded-full flex items-center justify-center">
-              <div className="w-6 h-6 bg-cyan-300/30 rounded-full"></div>
-            </div>
+            <CiallyLogo />
             <span className="text-xl font-bold">Cially</span>
           </div>
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://github.com/cially/cially">
+            <Link href="https://github.com" className="flex items-center gap-2 text-slate-300 hover:text-white">
               <Github className="h-4 w-4" />
               GitHub
-            </a>
+            </Link>
           </Button>
         </div>
       </header>
@@ -64,14 +76,15 @@ export default function PlaceholderSite() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-[#3dd8e3] hover:bg-[#2bc0cb] text-[#050d1f] font-medium" asChild>
-              <a href="https://github.com/cially/cially">
+              <Link href="https://github.com">
                 <Github className="h-4 w-4 mr-2" />
                 View on GitHub
-              </a>
+              </Link>
             </Button>
 
             <Button
-              variant="secondary"
+              variant="outline"
+              className="border-[#1a2234] text-slate-300 hover:bg-[#1a2234] hover:text-white"
               disabled
             >
               Documentation (Soon)
@@ -83,7 +96,7 @@ export default function PlaceholderSite() {
       {/* Footer */}
       <footer className="border-t border-[#1a2234] py-6">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-slate-400 text-sm">Made by the <a href="https://github.com/cially" className="text-slate-300 hover:text-white">Cially Team</a> for the community • Open source Discord analytics</p>
+          <p className="text-slate-400 text-sm">Made by Skell for the community • Open source Discord analytics</p>
         </div>
       </footer>
     </div>
