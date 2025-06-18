@@ -93,14 +93,14 @@ export default function PlaceholderSite() {
       {/* Second Section */}
       <main>
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center">
-          <div className="w-full px-20">
+          <div className="w-full px-5 lg:px-20">
             <img src="./screen-1.webp" />
           </div>
           <div className="text-center">
             <h2 className="text-4xl sm:text-3xl font-bold mt-3">
               Learn about your Community
             </h2>
-            <div className="px-20 text-gray-300 text-sm mt-3">
+            <div className="px-5 lg:px-20 text-gray-300 text-sm mt-3">
               To grow a successful Discord server, you need to understand how
               your community behaves. Tracking analytics like message activity,
               member growth, and engagement trends gives you a clear picture of
@@ -112,14 +112,14 @@ export default function PlaceholderSite() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-20">
-          <div className="w-full px-20">
+          <div className="w-full px-5 lg:px-20">
             <img src="./screen-2.webp" />
           </div>
           <div className="text-center">
             <h2 className="text-4xl sm:text-3xl font-bold mt-3">
               Privacy First
             </h2>
-            <div className="px-20 text-gray-300 text-sm mt-3">
+            <div className="px-5 lg:px-20 text-gray-300 text-sm mt-3">
               Cially is using Pocketbase internally, giving you full control and
               permanent access to your personal data — without us ever seeing
               it. Your privacy matters: Cially never stores message content or
@@ -130,14 +130,14 @@ export default function PlaceholderSite() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-20">
-          <div className="w-full px-20">
+          <div className="w-full px-5 lg:px-20">
             <img src="./screen-3.webp" />
           </div>
           <div className="text-center">
             <h2 className="text-4xl sm:text-3xl font-bold mt-3">
               Free. Forever.
             </h2>
-            <div className="px-20 text-gray-300 text-sm mt-3">
+            <div className="px-5 lg:px-20 text-gray-300 text-sm mt-3">
               Cially can be used for free forever, without any secret fees or
               limitations. All you need is some low end infistructure and Cially
               will be up and running for as long as you wish.
@@ -150,7 +150,7 @@ export default function PlaceholderSite() {
         </div>
 
         <h3 className="text-4xl sm:text-3xl font-bold text-center mt-20">Get Started Now</h3>
-        <div className="place-self-center grid grid-cols-2 gap-3 my-10 mt-10">
+        <div className="place-self-center grid grid-cols-1 lg:grid-cols-2 gap-3 my-10 mt-10">
           <Button className="font-medium" asChild>
             <a href="https://github.com/cially/cially">
               <Github className="h-4 w-4 mr-2" />
