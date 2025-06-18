@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+// import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Github, BarChart3, Users, Activity } from "lucide-react";
+// import { Github, BarChart3, Users, Activity } from "lucide-react";
+import { Github } from "lucide-react";
 
 const CiallyLogo = () => (
   <div className="relative w-10 h-10">
