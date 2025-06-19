@@ -48,7 +48,7 @@ export default function PlaceholderSite() {
           </h1>
 
           <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-            Cially is an open-source Discord analytics dashboard that provides
+            Cially is an open-source Discord Server Stats dashboard that provides
             real-time insights, member activity tracking, and detailed server
             statistics to help you understand and optimize your Discord
             community.
@@ -140,7 +140,7 @@ export default function PlaceholderSite() {
             </h2>
             <div className="px-5 lg:px-20 text-gray-300 text-sm mt-3">
               Cially can be used for free forever, without any secret fees or
-              limitations. All you need is some low end infistructure and Cially
+              limitations. All you need is some low end infrastructure and Cially
               will be up and running for as long as you wish.
               <div className="text-gray-600 mt-2">
                 Cially's License does not allow commercial use. Read more about
