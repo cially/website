@@ -16,7 +16,7 @@ const CiallyLogo = () => (
   </div>
 );
 
-export default function PlaceholderSite() {
+export default function Home() {
   return (
     <div className="min-h-screen text-white flex flex-col bg-gr">
       {/* Header */}
@@ -86,7 +86,11 @@ export default function PlaceholderSite() {
               </a>
             </Button>
 
-            <Button disabled>Documentation (Soon)</Button>
+            <Button asChild>
+              <a href="./docs">
+                Documentation
+              </a>
+            </Button>
           </div>
         </div>
       </main>
@@ -159,7 +163,11 @@ export default function PlaceholderSite() {
             </a>
           </Button>
 
-          <Button disabled>Documentation (Soon)</Button>
+          <Button asChild>
+              <a href="./docs">
+                Documentation
+              </a>
+            </Button>
         </div>
       </main>
 
