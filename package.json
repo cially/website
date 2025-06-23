@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "@cially/website",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -26,5 +26,6 @@
   },
   "devDependencies": {
     "tw-animate-css": "^1.3.4"
-  }
+  },
+  "packageManager": "pnpm@10.12.2"
 }
