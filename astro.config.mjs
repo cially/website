@@ -12,6 +12,9 @@ export default defineConfig({
   },
   integrations: [react(), starlight({
     title: "Cially",
-    favicon: "logo.svg"
+    favicon: "logo.svg",
+    customCss: [
+        './src/styles/docs.css',
+      ],
   })],
 });
