@@ -87,7 +87,7 @@ export default function Home() {
             </Button>
 
             <Button asChild>
-              <a href="./docs">
+              <a href="./guide">
                 Documentation
               </a>
             </Button>
@@ -164,7 +164,7 @@ export default function Home() {
           </Button>
 
           <Button asChild>
-              <a href="./docs">
+              <a href="./guide">
                 Documentation
               </a>
             </Button>
