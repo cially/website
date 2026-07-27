@@ -10,6 +10,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  site: 'https://cially.github.io',
+  base: "/website",
   integrations: [react(), starlight({
     title: "Cially",
     favicon: "logo.svg",
