@@ -54,7 +54,7 @@ export default function Home() {
             community.
           </p>
 
-          {/* 
+          {/*
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
             <Card className="bg-[#0a1428] border-[#1a2234]">
               <CardContent className="p-4 text-center">
@@ -81,7 +81,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="font-medium" asChild>
               <a href="https://github.com/cially/cially">
-                <Github className="h-4 w-4 mr-2" />
+                <Github className="h-4 w-4" />
                 View on GitHub
               </a>
             </Button>
@@ -99,7 +99,7 @@ export default function Home() {
       <main>
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center">
           <div className="w-full px-5 lg:px-20">
-            <img src="./screen-1.webp" />
+            <img src="./screen-1.webp" className="rounded-lg"/>
           </div>
           <div className="text-center">
             <h2 className="text-4xl sm:text-3xl font-bold mt-3">
@@ -118,7 +118,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-20">
           <div className="w-full px-5 lg:px-20">
-            <img src="./screen-2.webp" />
+            <img src="./screen-2.webp" className="rounded-lg"/>
           </div>
           <div className="text-center">
             <h2 className="text-4xl sm:text-3xl font-bold mt-3">
@@ -136,7 +136,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-20">
           <div className="w-full px-5 lg:px-20">
-            <img src="./screen-3.webp" />
+            <img src="./screen-3.webp" className="rounded-lg"/>
           </div>
           <div className="text-center">
             <h2 className="text-4xl sm:text-3xl font-bold mt-3">
